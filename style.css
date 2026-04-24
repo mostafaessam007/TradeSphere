@@ -1,0 +1,123 @@
+/* Crimson Orchard Color Scheme */
+/* Cab Sav: #49081F */
+/* Dark Claret: #650A27 */
+/* Royal Burgundy: #781132 */
+/* Violet-Red: #8D1E41 */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #49081F;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.navBttns {
+    background: none;
+    border: none;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.navBttns:hover {
+    background-color: #650A27;
+}
+
+.hero {
+    display: flex;
+    padding: 2rem;
+    background-color: #781132;
+    color: white;
+}
+
+.hero-text {
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+.ourProducts {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #8D1E41;
+    color: white;
+}
+
+.category-card {
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid white;
+    width: 30%;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #49081F;
+    color: white;
+}
+
+.footer-links {
+    margin: 1rem 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.page-content {
+    padding: 2rem;
+    text-align: center;
+}
