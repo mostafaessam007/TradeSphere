@@ -178,6 +178,10 @@ nav {
     border: 1px solid white;
     width: 30%;
 }
+.category-card:hover{
+    background-color:#3a383831 ;
+
+}
 .category-card svg{
     width: 240px;
     height: 240px;
