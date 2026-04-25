@@ -10,6 +10,9 @@ body {
     padding: 0;
     background-color: #fff;
     color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -131,6 +134,7 @@ footer {
     padding: 1rem;
     background-color: #49081F;
     color: white;
+    margin-top: auto;
 }
 
 .footer-links {
@@ -146,4 +150,8 @@ footer {
 .page-content {
     padding: 2rem;
     text-align: center;
+}
+.page-content p{
+font-size: 30px;
+font-weight: 500;
 }
