@@ -116,6 +116,8 @@ nav {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 1rem;
+    text-align: center;
+    text-decoration: none;
 }
 
 .shop-now-btn:hover {
